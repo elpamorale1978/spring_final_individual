@@ -1,0 +1,11 @@
+{% extends 'PabloAplicacion/layout.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+<form action='' method="POST" class="contacto">
+ {% csrf_token %}
+ {{ form|crispy }}
+<center><button>Enviar</button></center>
+</form>
+
+{% endblock %}

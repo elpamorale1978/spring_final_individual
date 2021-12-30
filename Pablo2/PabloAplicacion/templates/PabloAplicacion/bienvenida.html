@@ -1,0 +1,39 @@
+{% extends 'PabloAplicacion/layout2.html' %}
+{% load static %}
+{% block content %}
+
+{% csrf_token %}
+<center><h5>Ha iniciado sesión como {{ user.nombre }} {{ user.apellido }}</h5></center>
+
+</select>
+
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+    
+
+              <div class="row">
+<img src="{% static 'img/Mexicogrande.JPG' %}" class="img-fluid" alt="foto">
+                
+</div>
+
+  <hr>
+
+<div class="row bloquemedio">
+    <div class="col-sm-12 col-md-3 bloque1">
+      <h3>Hola</h3>
+      <p>Mi nombre es Pablo Morales y soy nuevo en el mundo de la programación.</p>
+    </div>
+    <div class="col-sm-12 col-md-6 bloque2">
+      <h3>Redes Sociales</h3>
+      <p>Estas son mis redes sociales</p>
+      <div class="imagenesredes">
+        <a href="https://www.facebook.com/pablo.m.ortega"><img src="{% static 'img/facebook.png' %}" class=" img-responsive" alt="facebook"></a>
+         <a href="https://www.instagram.com/pabloortega6210/"><img src="{% static 'img/instagram.png' %}" class="img-responsive" alt="Instagram"></div></a>
+        </div>
+    <div class="col-sm-12 col-md-3 bloque3">
+      <h3>Mi Interés</h3>        
+      <p>Me dedico al tema finaciero pero me gustaría también hacer algo por el lado sobretodo en el desarrollo de la tecnología Blockchain</p>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

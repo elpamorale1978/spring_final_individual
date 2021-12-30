@@ -1,0 +1,21 @@
+{% extends 'PabloAplicacion/layout2.html' %}
+{% load static %}
+
+
+{% block content %}
+<br>
+<center><h3>Usuarios Registrados</h3></center>
+<br>
+<table id ="tablaUsuarios" class="center">
+    <tr>
+        <th>Rut</th><th>Nombre</th><th>Apellido</th><th>Email</th>
+    </tr>
+    {% for usuario in data %}
+    <tr>
+    <td>{{usuario.rut}}</td><td>{{usuario.nombre}}</td><td>{{usuario.apellido}}</td><td>{{usuario.email}}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}
+    

@@ -1,0 +1,12 @@
+{% extends 'PabloAplicacion/layout.html' %}
+
+{% load crispy_forms_tags %}
+{% block content %}
+
+<center><form action='' method="POST">
+ {% csrf_token %}
+ {{ form|crispy }}
+ <button>Registrate</button>
+ </form></center>
+
+{% endblock %}

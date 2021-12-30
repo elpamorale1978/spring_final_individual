@@ -1,0 +1,152 @@
+.body{
+    text-align: center;
+    padding: 0px;
+    width: 0px;
+    background-color: rgb(101, 173, 175);
+}
+
+.row{
+  margin-right: -15px;
+  margin-left: 0px;
+
+}
+
+.banner{
+
+    background-color: rgb(229, 229, 194);
+    text-align: center;
+    text-decoration: solid;
+}
+
+.parrafo{
+    text-align: center;
+    background-color: rgb(253, 253, 117);
+}
+
+.mexico {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.mexico {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.piedepagina{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white
+
+}
+
+.pie{
+    padding-top: 25px;
+}
+
+
+
+.bloquemedio{
+    text-align: center;
+    background-color: rgb(160, 157, 167);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bloque1{
+  border: double; 
+}
+
+.bloque2{
+    border: double;
+}
+
+.bloque3{
+    border: double;
+}
+
+.bloque2 .imagenesredes{
+    display: inline-block; 
+    margin-bottom: 10px;
+}
+
+.img-responsive{
+    width: 70px;
+    height: auto;
+}
+
+#TablaRegistro{
+    width: 50%;
+}
+
+#tablaUsuarios {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #tablaUsuarios  td{
+    text-align: center;
+  }
+  
+  #tablaUsuarios  td, #tablaUsuarios th {
+    border: 1px solid rgba(71, 33, 71, 0.603);
+    padding: 10px;
+  }
+   
+  #tablaUsuarios  th {
+    padding-top: 12px;#tablaClientes {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+        border-collapse: collapse;
+        width: 50%;
+      }
+      
+      #tablaClientes  td{
+        text-align: center;
+      }
+      
+      #tablaClientes  td, #tablaUsuarios th {
+        border: 1px solid rgb(52, 5, 71);
+        padding: 10px;
+      }
+       
+      #tablaUsuarios  th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: center;
+        background-color: rgb(11, 11, 141);
+        color: white;
+      }
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(11, 11, 141);
+    color: white;
+  }
+
+  #registroform {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #contactoform {
+    width: 50%;
+    margin: auto;
+  }
+
+
+.contacto {
+  width: 70%;
+  margin: auto;
+}
+
+.sesion {
+  width: 60%;
+  margin: auto;
+}
+

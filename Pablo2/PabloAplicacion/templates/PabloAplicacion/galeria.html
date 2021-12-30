@@ -1,0 +1,83 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pablo´s Web Site</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/styles2.css' %}">  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+      .flex-column {
+        max-width: 250px;
+      }
+  
+      img {
+        margin: 5.5px;
+      }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" href="./index">Inicio <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="./yo">Sobre Mí</a>
+                  <a class="nav-link" href="./jquery">Galeria</a>
+                  <a class="nav-link" href="./contacto1">Contacto</a>
+                  <a class="nav-link" href="./base">Usuarios Registrados</a>
+                </div>
+                <hr> 
+                <a href='./salir'><button type="button" class="btn btn-dark" style="margin:5px">Salir</button></a>
+              </nav>
+            </nav>  
+
+
+<div class="container-fluid">
+  <div class="d-flex flex-wrap justify-content-center">
+    <div class="d-flex flex-column">
+      <img class="img-fluid" src="{% static 'img/yo.JPG' %}">
+      <img class="img-fluid" src="{% static 'img/mit.JPG' %}">
+      <img 1.mp4' %}">
+    </div>
+    <div class="d-flex flex-column">
+      <img class="img-fluid" src="{% static 'img/losangeles.jpg' %}">
+      <img class="img-fluid" src="{% static 'img/barcelona.JPG' %}">
+      <img class="img-fluid" src="{% static 'img/cubagrande.JPG' %}">
+    </div>
+    <div class="d-flex flex-column">
+      <img class="img-fluid" src="{% static 'img/papa.JPG' %}">
+      <img class="img-fluid" src="{% static 'img/usopen.JPG' %}">
+      <img class="img-fluid" src="{% static 'img/paris.JPG' %}">
+    </div>
+    <div class="d-flex flex-column">
+      <img class="img-fluid" src="{% static 'img/mami.JPG' %}">
+      <img class="img-fluid" src="{% static 'img/vaticano1.JPG' %}">
+      <img class="img-fluid" src="{% static 'img/panteon.JPG' %}">
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<div class="row pie">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 piedepagina">Pablo Morales - 2021</div>
+</div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</body>
+</html>
